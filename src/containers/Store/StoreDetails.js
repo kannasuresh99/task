@@ -95,6 +95,7 @@ class StoreDetails extends Component {
             >
               Load More
             </button>
+            <showLoadButton />
           </div>
         );
       }
@@ -108,7 +109,7 @@ class StoreDetails extends Component {
           alt="Woman accesories"
           title="Woman accesories"
         />
-        <div class="container-fluid">
+        <div className="container-fluid">
           <div className={classes.bannerimages + ' row'}>
             <div className="col-lg-12">
               <div className={classes.bannerText + ' col-sm-12'}>
