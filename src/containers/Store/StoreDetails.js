@@ -95,6 +95,7 @@ class StoreDetails extends Component {
             >
               Load More
             </button>
+            <showLoadButton />
           </div>
         );
       }
