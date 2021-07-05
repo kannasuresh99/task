@@ -1,0 +1,39 @@
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 550px}
+ 
+    
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (max-width: 767px) {
+  .row.content {height: auto;} 
+}
+
+
+
+.rightTopMargin{
+  margin-top: 32px;
+}
+
+
+.bgColor{
+  background-color: #f6f9ff;
+}
+
+.rightPanel{
+    margin-left: 16.66666667%;
+}
+
+@media (max-width: 767px){
+  .rightPanel{
+    margin-left: 0%;
+  }
+
+}
+
+@media (min-width: 767px) and (max-width: 1199px){
+  .rightPanel{
+    margin-left: 24%;
+  }
+
+}
