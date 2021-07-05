@@ -66,6 +66,7 @@ class StoreDetails extends Component {
   render() {
     const { storeDetails, listings, total_records, loading } = this.props;
     let listing = '';
+    let showLoadButton = null;
     let storeContent = null;
     let storeName = storeDetails.get('name', '');
     let storeOwner =
